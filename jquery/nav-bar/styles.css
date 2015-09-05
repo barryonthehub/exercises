@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    background-color:green;
+    height:60px;
+    text-align:left;
+    position:fixed;
+    z-index:-1;
+
+}
+.navbar {
+    width:100%;
+    position:relative;
+    top:60px;
+    background-color:red;
+    height:60px;
+    z-index:0;
+}
+
+.navbar-fixed-top {
+    width:100%;
+    position:fixed;
+    top:0px;
+    background-color:red;
+    height:60px;
+    z-index:0;    
+}
+
+.text {
+    text-align:center;
+    background-color:yellow;
+}
+
+.nav-placeholder {
+height: 60px;
+}
